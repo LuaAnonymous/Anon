@@ -1,0 +1,31 @@
+if game.PlaceId == 286090429 then
+    local Library = loadstring(game:HttpGet("https://pastebin.com/raw/FhmBjEJV"))()
+    local Window = Library.CreateLib("Anon", "DarkTheme")
+
+    -- MAIN
+    local Main = Window:NewTab("Main")
+    local MainSection = Main:NewSection("Main")
+    
+    MainSection:NewButton("FE Headless", "give you FE Headless", function()
+    print("Clicked")
+    if game.Players.LocalPlayer.Character:FindFirstChild("HeadHB")then
+            game.Players.LocalPlayer.Character:FindFirstChild("HeadHB"):Destroy()
+        end
+        if game.Players.LocalPlayer.Character:FindFirstChild("FakeHead")then
+            game.Players.LocalPlayer.Character:FindFirstChild("FakeHead"):Destroy()
+        end
+end)
+
+    MainSection:NewButton("FE Sunglasses", "give you FE Sunglasses", function()
+    print("Clicked")
+    	while true do wait(0.1) game:GetService("ReplicatedStorage").Events.Sunglasses:FireServer() end
+end)
+
+    -- TOGGLES
+    local Toggles = Window:NewTab("Toggles")
+    local TogglesSection = Toggles:NewSection("Toggles")
+    
+    TogglesSection:NewKeybind("Keybind", "GUI Toggling", Enum.KeyCode.F, function()
+	Library:ToggleUI()
+end)
+end
