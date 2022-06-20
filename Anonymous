@@ -28,7 +28,6 @@ end)
 
     MainSection:NewButton("FE Legit Skin", "give you FE Legit Skin", function()
     print("Clicked")
-    while true do wait(0.1) game:GetService("ReplicatedStorage").Events.Sunglasses:FireServer() end
     game.Players.LocalPlayer.Character.NerdHair.Handle:Destroy()
     if game.Players.LocalPlayer.Character:FindFirstChild("HeadHB")then
             game.Players.LocalPlayer.Character:FindFirstChild("HeadHB"):Destroy()
@@ -36,6 +35,7 @@ end)
         if game.Players.LocalPlayer.Character:FindFirstChild("FakeHead")then
             game.Players.LocalPlayer.Character:FindFirstChild("FakeHead"):Destroy()
         end
+    while true do wait(0.1) game:GetService("ReplicatedStorage").Events.Sunglasses:FireServer() end
 end)
 
     MainSection:NewButton("FE Legit Skin 2", "give you FE Legit Skin 2", function()
