@@ -1,6 +1,22 @@
-if game.PlaceId == 286090429 then
+repeat
+    wait()
+until game:IsLoaded()
+wait()
+local a = {}
+if not getgenv().ExecutedAlr then
+    if syn then
+        syn.queue_on_teleport('loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaScripterAnonymous/Anon/main/Anonymous"))()')
+    else
+        queue_on_teleport('loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaScripterAnonymous/Anon/main/Anonymous"))()')
+    end
+    end
+    getgenv().ExecutedAlr = true
     local Library = loadstring(game:HttpGet("https://pastebin.com/raw/FhmBjEJV"))()
     local Window = Library.CreateLib("Anon", "DarkTheme")
+
+
+local a = {Game1 = 740581508, Game2 = 2625195454,Game3 = 3590667014, Game4 = 4518266946}
+if game.PlaceId == a.Game1 then
 
     -- MAIN
     local Main = Window:NewTab("Main")
