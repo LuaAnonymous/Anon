@@ -483,17 +483,17 @@ successCornerHidingFrame.ZIndex = 0
 successCloseButton.Name = "closeButton"
 successCloseButton.Parent = successTemplateFrame
 successCloseButton.AnchorPoint = Vector2.new(1, 0.5)
-successCloseButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+successCloseButton.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
 successCloseButton.BackgroundTransparency = 1
 successCloseButton.BorderSizePixel = 0
 successCloseButton.Position = UDim2.new(1, -5, 0.5, 0)
 successCloseButton.Size = UDim2.new(0, 15, 0, 15)
 successCloseButton.Image = "rbxassetid://9127564477"
-successCloseButton.ImageColor3 = Color3.fromRGB(50, 195, 125)
+successCloseButton.ImageColor3 = Color3.fromRGB(27, 42, 53)
 
 warningTemplate.Name = "warning"
 warningTemplate.AnchorPoint = Vector2.new(1, 1)
-warningTemplate.BackgroundColor3 = Color3.fromRGB(255, 232, 197)
+warningTemplate.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
 warningTemplate.BorderSizePixel = 0
 warningTemplate.BackgroundTransparency = 1
 warningTemplate.Position = UDim2.new(1, 0, 1, -100)
@@ -501,7 +501,7 @@ warningTemplate.Size = UDim2.new(1, 0, 0, 40)
 
 warningTemplateFrame.Name = "templateFrame"
 warningTemplateFrame.Parent = warningTemplate
-warningTemplateFrame.BackgroundColor3 = Color3.fromRGB(255, 232, 197)
+warningTemplateFrame.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
 warningTemplateFrame.BorderSizePixel = 0
 warningTemplateFrame.Size = UDim2.new(1, 0, 1, 0)
 
@@ -510,7 +510,7 @@ warningTemplateCorner.Parent = warningTemplateFrame
 
 warningSeverityFrame.Name = "severityFrame"
 warningSeverityFrame.Parent = warningTemplateFrame
-warningSeverityFrame.BackgroundColor3 = Color3.fromRGB(234, 159, 53)
+warningSeverityFrame.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
 warningSeverityFrame.Size = UDim2.new(0, 10, 1, 0)
 
 warningSeverityCorner.Name = "severityCorner"
@@ -518,7 +518,7 @@ warningSeverityCorner.Parent = warningSeverityFrame
 
 hideWarningSeverityCornerFrame.Name = "hideSeverityCornerFrame"
 hideWarningSeverityCornerFrame.Parent = warningSeverityFrame
-hideWarningSeverityCornerFrame.BackgroundColor3 = Color3.fromRGB(255, 232, 197)
+hideWarningSeverityCornerFrame.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
 hideWarningSeverityCornerFrame.BorderSizePixel = 0
 hideWarningSeverityCornerFrame.Position = UDim2.new(0.5, 0, 0, 0)
 hideWarningSeverityCornerFrame.Size = UDim2.new(0.5, 0, 1, 0)
@@ -526,7 +526,7 @@ hideWarningSeverityCornerFrame.Size = UDim2.new(0.5, 0, 1, 0)
 warningImage.Name = "image"
 warningImage.Parent = warningTemplateFrame
 warningImage.AnchorPoint = Vector2.new(0, 0.5)
-warningImage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+warningImage.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
 warningImage.BackgroundTransparency = 1
 warningImage.BorderSizePixel = 0
 warningImage.Position = UDim2.new(0, 15, 0.5, 0)
@@ -536,7 +536,7 @@ warningImage.ImageColor3 = Color3.fromRGB(234, 159, 53)
 
 warningInformationFrame.Name = "informationFrame"
 warningInformationFrame.Parent = warningTemplateFrame
-warningInformationFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+warningInformationFrame.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
 warningInformationFrame.BackgroundTransparency = 1
 warningInformationFrame.BorderSizePixel = 0
 warningInformationFrame.Position = UDim2.new(0, 45, 0, 0)
@@ -544,7 +544,7 @@ warningInformationFrame.Size = UDim2.new(1, -45 - 25, 1, 0)
 
 warningHeadingText.Name = "headingText"
 warningHeadingText.Parent = warningInformationFrame
-warningHeadingText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+warningHeadingText.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
 warningHeadingText.BackgroundTransparency = 1
 warningHeadingText.BorderSizePixel = 0
 warningHeadingText.ClipsDescendants = true
@@ -557,7 +557,7 @@ warningHeadingText.TextXAlignment = Enum.TextXAlignment.Left
 
 warningBodyText.Name = "bodyText"
 warningBodyText.Parent = warningInformationFrame
-warningBodyText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+warningBodyText.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
 warningBodyText.BackgroundTransparency = 1
 warningBodyText.BorderSizePixel = 0
 warningBodyText.ClipsDescendants = true
@@ -573,7 +573,7 @@ warningBodyText.TextXAlignment = Enum.TextXAlignment.Left
 warningCornerHidingFrame.Name = "cornerHidingFrame"
 warningCornerHidingFrame.Parent = warningTemplateFrame
 warningCornerHidingFrame.AnchorPoint = Vector2.new(1, 0)
-warningCornerHidingFrame.BackgroundColor3 = Color3.fromRGB(255, 232, 197)
+warningCornerHidingFrame.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
 warningCornerHidingFrame.BorderSizePixel = 0
 warningCornerHidingFrame.Position = UDim2.new(1, 0, 0, 0)
 warningCornerHidingFrame.Size = UDim2.new(.1, 0, 1, 0)
@@ -582,13 +582,13 @@ warningCornerHidingFrame.ZIndex = 0
 warningCloseButton.Name = "closeButton"
 warningCloseButton.Parent = warningTemplateFrame
 warningCloseButton.AnchorPoint = Vector2.new(1, 0.5)
-warningCloseButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+warningCloseButton.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
 warningCloseButton.BackgroundTransparency = 1
 warningCloseButton.BorderSizePixel = 0
 warningCloseButton.Position = UDim2.new(1, -5, 0.5, 0)
 warningCloseButton.Size = UDim2.new(0, 15, 0, 15)
 warningCloseButton.Image = "rbxassetid://9127564477"
-warningCloseButton.ImageColor3 = Color3.fromRGB(234, 159, 53)
+warningCloseButton.ImageColor3 = Color3.fromRGB(27, 42, 53)
 
 local function scaleNotifHolderMaxNotifs(): nil
     local amountOfNotifsInFrame = math.floor(notifsHolderFrame.AbsoluteSize.Y/40)
