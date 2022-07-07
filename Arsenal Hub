@@ -159,7 +159,7 @@ errorInformationFrame.Size = UDim2.new(1, -45 - 25, 1, 0)
 
 errorHeadingText.Name = "headingText"
 errorHeadingText.Parent = errorInformationFrame
-errorHeadingText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+errorHeadingText.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
 errorHeadingText.BackgroundTransparency = 1
 errorHeadingText.BorderSizePixel = 0
 errorHeadingText.ClipsDescendants = true
@@ -353,7 +353,7 @@ messageHeadingText.ClipsDescendants = true
 messageHeadingText.Size = UDim2.new(1, 0, 0, 20)
 messageHeadingText.Font = Enum.Font.GothamBold
 messageHeadingText.Text = "Custom message"
-messageHeadingText.TextColor3 = Color3.fromRGB(0, 0, 0)
+messageHeadingText.TextColor3 = Color3.fromRGB(27, 42, 53)
 messageHeadingText.TextSize = 14
 messageHeadingText.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -402,7 +402,7 @@ successTemplate.Size = UDim2.new(1, 0, 0, 40)
 
 successTemplateFrame.Name = "templateFrame"
 successTemplateFrame.Parent = successTemplate
-successTemplateFrame.BackgroundColor3 = Color3.fromRGB(196, 247, 221)
+successTemplateFrame.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
 successTemplateFrame.BorderSizePixel = 0
 successTemplateFrame.Size = UDim2.new(1, 0, 1, 0)
 
