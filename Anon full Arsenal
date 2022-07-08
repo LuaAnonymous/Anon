@@ -1,0 +1,9 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaScripterAnonymous/Anon/main/anon%20hub"))()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaScripterAnonymous/Anon/main/Anonymous"))()
+
+local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaScripterAnonymous/Anon/main/anon%20hub%20arsenal", true))()
+
+Notification.new("info", "Anon", "Hub") -- Args(<string> Type, <string> Heading, <string> Body, <boolean?> AutoRemoveNotif, <number?> AutoRemoveTime, <function?> OnCloseFunction)
+
+local notif = Notification.new("success", "Success", "Successful laoded.")
