@@ -264,28 +264,11 @@ end)
     game.Players.LocalPlayer.Character.NerdHair.Handle:Destroy()
 end)
 
-    MainSection:NewButton("FE Legit Skin", "give you FE Legit Skin", function()
+    MainSection:NewButton("FE remove hair", "remove your hair", function()
     print("Clicked")
     game.Players.LocalPlayer.Character.NerdHair.Handle:Destroy()
-    if game.Players.LocalPlayer.Character:FindFirstChild("HeadHB")then
-            game.Players.LocalPlayer.Character:FindFirstChild("HeadHB"):Destroy()
-        end
-        if game.Players.LocalPlayer.Character:FindFirstChild("FakeHead")then
-            game.Players.LocalPlayer.Character:FindFirstChild("FakeHead"):Destroy()
-        end
-    while true do wait(0.1) game:GetService("ReplicatedStorage").Events.Sunglasses:FireServer() end
 end)
 
-    MainSection:NewButton("FE Legit Skin 2", "give you FE Legit Skin 2", function()
-    print("Clicked")
-    game.Players.LocalPlayer.Character.NerdHair.Handle:Destroy()
-    if game.Players.LocalPlayer.Character:FindFirstChild("HeadHB")then
-            game.Players.LocalPlayer.Character:FindFirstChild("HeadHB"):Destroy()
-        end
-        if game.Players.LocalPlayer.Character:FindFirstChild("FakeHead")then
-            game.Players.LocalPlayer.Character:FindFirstChild("FakeHead"):Destroy()
-        end
-end)  
 
     MainSection:NewButton("FE KillBrick", "give you FE KillBrick", function()
     print("Clicked")
