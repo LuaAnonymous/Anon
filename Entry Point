@@ -1,1 +1,64 @@
+local a = {Game1 = 740581508, Game2 = 2625195454,Game3 = 3590667014, Game4 = 4518266946}
+if game.PlaceId == a.Game1 then
+    local Library = loadstring(game:HttpGet("https://pastebin.com/raw/FhmBjEJV"))()
+    local Window = Library.CreateLib("Anon", "DarkTheme")
+    
+    -- Info
+    local Credits = Window:NewTab("Info")
+    local CreditsSection = Credits:NewSection("Info")
+    
+    CreditsSection:NewLabel("mode/game: lobby")
+    CreditsSection:NewLabel("made by Anonymous#4915")
+    CreditsSection:NewLabel("Executors: all")
+    CreditsSection:NewLabel("fps supported (no lag)")
 
+elseif game.PlaceId == a.Game2 then
+    local Library = loadstring(game:HttpGet("https://pastebin.com/raw/FhmBjEJV"))()
+    local Window = Library.CreateLib("Anon", "DarkTheme")
+    
+    -- MAIN
+    local Main = Window:NewTab("Main")
+    local MainSection = Main:NewSection("Main")
+    
+    MainSection:NewDropdown("TP", "info", {"spawn", "cam 1", "cam 2", "Tresor", "Code", "Pc 1", "Pc 2", "Pc 3", "Pc 4", "Save"}, function(Value)
+if Value == "spawn" then
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(203.6022, 188.4999, 102.2637, 0.7994, 0, 0.6008, 0, 1, 0, -0.6008, 0, 0.7994)
+end
+if Value == "cam 1" then
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(213.0435, 204.7, -37.3131, 0.9147, 0, -0.4041, 0, 1, 0, 0.4041, 0, 0.9147)
+end
+if Value == "cam 2" then
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(162.5428, 172.6, -67.1446, 0.2832, 0, 0.9591, 0, 1, 0, -0.9591, 0, 0.2832)
+end
+if Value == "Tresor" then
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(184.3762, 173.9971, -40.2268, -0.9959, 0, -0.0902, 0, 1, 0, 0.0902, 0, -0.9959)
+end
+if Value == "Code" then
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(186, 205, -23)
+end
+if Value == "Pc 1" then
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(239, 204, -55)
+end
+if Value == "Pc 2" then
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(235, 204, -80)
+end
+if Value == "Pc 3" then
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(234, 204, -98)
+end
+if Value == "Pc 4" then
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(234, 188, -61)
+end
+if Value == "Save" then
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(92, 167, -10)
+end
+end)
+       
+    -- Info
+    local Credits = Window:NewTab("Info")
+    local CreditsSection = Credits:NewSection("Info")
+    
+    CreditsSection:NewLabel("mode/game: The Deposit")
+    CreditsSection:NewLabel("made by Anonymous#4915")
+    CreditsSection:NewLabel("Executors: all")
+    CreditsSection:NewLabel("fps supported (no lag)")
+end
