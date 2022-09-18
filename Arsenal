@@ -244,6 +244,33 @@ getByName("Support Ukraine"):Destroy()
     local Main = Window:NewTab("Main")
     local MainSection = Main:NewSection("Main")
     
+    MainSection:NewButton("FE Delinquent", "it will give you Delinquent", function()
+    print("Clicked")
+    -- EQUIP DELINQUENT AND DEPLOY BEFORE EXECUTING
+game.Players.LocalPlayer.Character.Shirt.ShirtTemplate = "http://www.roblox.com/asset/?id=6311929085"
+game.Players.LocalPlayer.Character.Pants.PantsTemplate = "http://www.roblox.com/asset/?id=6311929085"
+
+
+game.Players.LocalPlayer.Ragdoll.Shirt.ShirtTemplate = "http://www.roblox.com/asset/?id=6311929085"
+game.Players.LocalPlayer.Ragdoll.Pants.PantsTemplate = "http://www.roblox.com/asset/?id=6311929085"
+local vm = game:GetService("ReplicatedStorage").Viewmodels.Arms.Delinquent
+vm.Name = "Holder"
+local toName = game:GetService("ReplicatedStorage").Viewmodels.Arms["Segg with Drip"]
+toName.Name = "Delinquent"
+game.Players.LocalPlayer.Character.Cap:Destroy()
+end)
+    
+    
+    MainSection:NewButton("FE Remove Head", "it will remove your head", function()
+    print("Clicked")
+        ArsoniaTable.Player.Anti_Aim.IsHead=true
+end)
+
+    MainSection:NewButton("FE Remove Legs", "it will remove your legs", function()
+    print("Clicked")
+        ArsoniaTable.Player.Anti_Aim.IsLegs=true
+end)  
+ 
     MainSection:NewButton("FE Headless", "give you FE Headless", function()
     print("Clicked")
     if game.Players.LocalPlayer.Character:FindFirstChild("HeadHB")then
